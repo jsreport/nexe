@@ -9,3 +9,4 @@ Some minor adaptations to make [nexe](https://github.com/nexe/nexe) working with
 5. Embedding resources works in differn't way to optimize startup time and compilation of big resoruces.
    Instead of base64 encoding strings into js, it writes binary data inside the exe file into the end.
    These binary data are then read and parsed when nexeres is required
+6. Avoid replacing invalid asci characters from the bundle
